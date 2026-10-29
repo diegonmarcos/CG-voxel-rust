@@ -6,4 +6,4 @@
 # DO NOT EDIT here. Hand-owned input: _dotfiles/readme/readme.json. Everything else in this folder is a vendored copy.
 set -eu
 here=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
-exec node "$here/readme-render.js" "$here/../.." "$@"
+exec node "$here/readme-render.cjs" "$here/../.." "$@"

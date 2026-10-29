@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 // readme-render.js - the ONE README renderer for every repo (#1303).
-// SOURCE: _git-repos-master/readme-render.js. Every repo carries a byte copy in _dotfiles/readme/ (written by
+// SOURCE: _git-repos-master/readme-render.js. Every repo carries a byte copy as _dotfiles/readme/readme-render.cjs (written by
 // `node repos-sot.js sync-readmes`); DO NOT EDIT the copies.
 //
 // A repo's README.md = template (_dotfiles/readme/template.md.tpl, hub or repo variant)
 //                    + node.json  (its registry node, rendered from projects-repos.json; DO NOT EDIT)
 //                    + readme.json (optional, hand-owned: title, intro, sections[] of repo-specific prose).
 //
-//   node _dotfiles/readme/readme-render.js [repo-root]           write README.md
-//   node _dotfiles/readme/readme-render.js [repo-root] --check   exit 1 when README.md differs byte-for-byte
+//   node _dotfiles/readme/readme-render.cjs [repo-root]           write README.md
+//   node _dotfiles/readme/readme-render.cjs [repo-root] --check   exit 1 when README.md differs byte-for-byte
 // Library (used by _git-repos-master repos-sot.js): nodeData(x, name), render(node, readme, tpl), migrate(md, kind).
 'use strict';
 const fs = require('fs');
