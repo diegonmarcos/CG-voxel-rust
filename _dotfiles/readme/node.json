@@ -1,0 +1,45 @@
+{
+  "schema": "readme-node/v1",
+  "generated_by": "_git-repos-master readme-render.js nodeData() from projects-repos.json; DO NOT EDIT (node repos-sot.js sync-readmes)",
+  "name": "CG-voxel-rust",
+  "label": "CG-voxel-rust",
+  "code": "2.1.3.1",
+  "kind": "repo",
+  "description": "vox-rust: agent-driven voxel world (Luanti-class engine in Rust) — build plan",
+  "visibility": "public",
+  "url": "https://github.com/diegonmarcos/CG-voxel-rust",
+  "developer": "Leaf.y",
+  "farm": "2.CG",
+  "breadcrumb": [
+    {
+      "code": "2",
+      "kind": "area",
+      "label": "CG",
+      "icon": "🎮"
+    },
+    {
+      "code": "2.1",
+      "kind": "project",
+      "label": "Galaxy",
+      "icon": "🌌"
+    },
+    {
+      "code": "2.1.3",
+      "kind": "family",
+      "label": "Voxel-rust",
+      "icon": ""
+    }
+  ],
+  "hub": {
+    "name": "CG-___",
+    "code": "2.0",
+    "url": "https://github.com/diegonmarcos/CG-___"
+  },
+  "base_dir": "git",
+  "members": [],
+  "tree": [
+    "├── 0_hub/",
+    "│   └── CG-___ (submodule)",
+    "└── docs/"
+  ]
+}
